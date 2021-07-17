@@ -26,7 +26,7 @@ end
 -- Awkward
 function M.Awkward()
   -- For development purposes (force reload)
-  require'plenary.reload'.reload_module('awkward')
+  -- require'plenary.reload'.reload_module('awkward')
 
   -- Conceal awk expressions
   -- Add lua-style comments to allow documentation of awk expressions

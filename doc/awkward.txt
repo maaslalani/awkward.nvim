@@ -1,0 +1,17 @@
+================================================================================
+                                                                  *awkward.nvim*
+
+Awkward is a plugin to run AWK commands inside neovim
+
+To find out more:
+https://github.com/maaslalani/awkward.nvim
+
+  :h Awkward
+
+Awkward                                                                *Awkward*
+    :Awkward<cr> will evaluate any AWK expressions in the buffer
+    and conceal them with the result.
+
+    Run :Awkward<cr> again to re-evaluate the buffer.
+
+================================================================================

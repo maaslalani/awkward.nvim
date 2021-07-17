@@ -1,0 +1,14 @@
+-- Run :Awkward<cr> to calculate the sum of the columns 
+
+| Mock | Data |
+| ---- | ---- |
+| 10   | 2    |
+| 12   | 4    |
+| 14   | 6    |
+| 16   | 8    |
+
+-- Sum: first column
+awk '{ a += $2 } END { print a }'
+
+-- Sum: second column
+awk '{ b += $4 } END { print b }'

@@ -45,3 +45,11 @@ Awkward comes with no keybindings. Map `:Awkward<cr>` to whatever you want.
 * `AwkwardComment` (defaults to `Comment`) are the Lua-style `--` comments
 * `AwkwardExpression` (defaults to `Text`) are the `awk '{ ... }'` expressions
 * `AwkwardResults` (defaults to `Text`) are evaluated results
+
+### Setup
+In `init.lua`
+```lua
+require('awkward').setup{}
+```
+
+To evaluate the buffer, use `:Awkward<cr>`.
